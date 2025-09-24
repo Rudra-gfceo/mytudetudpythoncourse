@@ -1,8 +1,12 @@
-numbers = list(range(1, 11))
 
-first_five = numbers[:5]
+original_list = list(range(1, 11))
 
-reversed_first_five = first_five[::-1]
 
-print("Extracted list:", first_five)
-print("Reversed list:", reversed_first_five)
+first_five = original_list[:5]
+
+reversed_five = first_five[::-1]
+
+
+print("Original list:", original_list)
+print("Extracted first five elements:", first_five)
+print("Reversed extracted elements:", reversed_five)
